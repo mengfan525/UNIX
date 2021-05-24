@@ -1,0 +1,6 @@
+"apue.h"头文件
+1.下载：http://www.apuebook.com/中下载源代码
+2.tar -zvxf src.3e.tar.gz
+3.cp ./apue.3e/include/apue.h /usr/include/
+4.cp ./apue.3e/lib/error.c /usr/include/
+5. vi apue.h(在文件最后的#endif前面加上一行代码 #include “error.c” 保存退出)
